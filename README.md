@@ -1,56 +1,95 @@
-# Mesh Propagation Tool for Unity
+````markdown
+# Mesh Propagation System for Unity
 
-A simple and efficient tool for scattering meshes across your Unity scenes using a custom brush system.
+A **GPU-driven**, high-performance propagation tool that lets you paint and stream millions of meshes in real time—now mobile-friendly and fully open-source.
 
-![Preview](https://your-image-url.com/preview.gif)
-
----
-
-## 🚀 Features
-
-- Paint meshes directly into the scene
-- Supports custom brushes and mesh densities
-- Runtime visibility with propagation system
-- Camera-based mesh culling system
+![Propagation Preview](https://your-image-url.com/preview.gif)
 
 ---
 
-## 🔧 Requirements
+## 🚀 Core Highlights
 
-- Unity 2021.3 LTS or higher
-- URP or Built-in Render Pipeline
-- No external dependencies
+- **GPU-Driven Scatter**: Compute-shader based propagation for up to **millions of instances** with zero Hiccup.
+- **Frustum Culling**: Instant camera-based visibility culling using compute buffers.
+- **Brush Customization**: Define your own brush shapes, density curves, and randomization channels.
+- **Material Agnostic**: Paint with **any mesh** and **any URP/Built-in** material.
+- **Mobile & Desktop**: Optimized code paths and LOD support for both high-end PCs and mobile platforms.
+- **Artist-Friendly**: Intuitive editor interface—no code required to get started.
+
+---
+
+## 🔧 Prerequisites
+
+- **Unity** 2021.3 LTS or higher
+- **Universal Render Pipeline (URP)** or **Built-in RP**
+- **Compute Shader** support on target platform
 
 ---
 
 ## 📦 Installation
 
-1. Clone or download this repository
-2. Open your Unity project
-3. Drag and drop the `MeshPropagation` folder into your `Assets/` directory
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/YourNameHere/MeshPropagation.git
+````
+
+2. Open your Unity project and import:
+
+   * In the **Project** window, drag the entire `MeshPropagation/` folder into `Assets/`.
 
 ---
 
-## 🧠 How To Use
+## ⚙️ Quick Start
 
-1. Right-click in the Project window → `Create > Propagation > New Scene Propagation Data`
-2. Drag the created asset into the Scene Data field in the Propagation window
-3. Add a mesh (e.g. Capsule) and assign `mPropagationDefault` as material
-4. Place a `Plane` under the scene as a surface
-5. Use brush settings to paint meshes in the scene
-6. To make meshes appear in play mode:
-    - Right-click in Hierarchy → `Propagation System > Create Propagation System`
-    - Assign your `Scene Propagation Data` and `Main Camera`
-    - Add the `OnCameraUpdate` component to the camera
+1. **Create Propagation Data**
+
+   * Right-click in **Project** → `Create > Propagation > New Scene Propagation Data`.
+2. **Assign Data & Camera**
+
+   * Open **Window > Propagation System**. Drag your asset into **Scene Data** and assign **Main Camera**.
+3. **Paint Your Surface**
+
+   * Select a surface (e.g., a `Plane`) in the **Scene**. Adjust brush settings (radius, density, randomness).
+4. **Assign Mesh & Material**
+
+   * In the **Propagate** panel, add your desired mesh(s) and select a material (default: `mPropagationDefault`).
+5. **Run & Enjoy**
+
+   * Enter **Play Mode**. Watch as your meshes stream in and out based on camera view and performance settings.
+
+---
+
+## 📈 Performance Tips
+
+* **Density Curves**: Use fall-off curves to reduce overdraw at distance.
+* **LOD & Culling**: Combine with Unity LOD Groups for further optimization.
+* **Batching**: Group similar meshes under the same material to benefit from GPU instancing.
+
+---
+
+## 🛠️ Contributing & Feedback
+
+> ⚠️ **Alpha Release**
+>
+> This tool is in *alpha*. If you encounter issues or have feature requests, please open an issue on GitHub.
+
+1. Fork the repo and create a branch: `feature/YourFeature`
+2. Commit your changes with clear messages
+3. Submit a **Pull Request** to the `main` branch
 
 ---
 
 ## 📄 License
 
-MIT License
+This project is released under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙋‍♂️ Author
+## 🙋‍♂️ Author & Contact
 
-Made with ❤️ by [YourNameHere](https://your-website-or-github.com)
+Built with ❤️ by **Batuhan Malkoç** ([GitHub](https://github.com/YourNameHere))
+
+> *"Render the future—one mesh at a time.*"
+
+```
+```
