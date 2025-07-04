@@ -14,11 +14,11 @@ Step-by-step video tutorials covering all core workflows:
 
 ## 🚀 Core Highlights
 
-- **GPU-Driven Scattering**: Compute shader propagation for millions of instances without frame drops.
-- **Instant Frustum Culling**: Visibility culling via compute buffers, per camera.
-- **Customizable Brushes**: Create brush shapes, density curves, and randomization channels.
-- **URP Support Only**: Built exclusively for the Universal Render Pipeline.
-- **Cross-Platform**: Mobile and desktop optimizations, with LOD integration.
+- **GPU-Driven Scattering**: Built entirely on Unity’s latest Indirect Rendering system—enabling millions of mesh instances without traditional instancing bottlenecks.
+- **Instant Frustum Culling**: High-performance visibility culling executed with compute shaders
+- **Customizable Brushes**: Create brush shapes and randomization channels.
+- **Modular MVP Architecture**: Fully modular structure following the MVP (Model-View-Presenter) pattern—clean, scalable, and easy to extend.
+- **Cross-Platform**: Mobile and desktop optimizations
 - **Artist-Centric**: User-friendly editor UI—no scripting required.
 
 ---
