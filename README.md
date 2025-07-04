@@ -42,11 +42,30 @@ Step-by-step video tutorials covering all core workflows:
 
 ## ⚙️ Quick Start
 
-1. **Create Propagation Data**: Right-click in **Project** → Create > Propagation > New Scene Propagation Data.
-2. **Configure**: Open **Window > Propagation System**, assign your data asset and **Main Camera**.
-3. **Paint Meshes**: Select a surface (e.g., a Plane), adjust brush **Radius**, **Density**, and **Randomness**.
-4. **Assign Assets**: In the Propagate panel, add meshes and select a material (default: mPropagationDefault).
-5. **Play**: Enter Play Mode; meshes will stream and cull dynamically.
+> 📺 **Need visuals?** [Watch the video tutorials here](#tutorial-series) for a full walkthrough of each step.
+
+1. **Open the Editor Window**  
+   - In the top Unity menu, go to **Tools > Propagation Brush** to open the main painting interface.
+
+2. **Create Scene Propagation Data**  
+   - In the **Project** window, right-click → `Create > Propagation > New Scene Propagation Data`.
+   - Drag the newly created asset into the **Scene Data** field in the Propagation Brush window.
+
+3. **Assign Meshes and Material**  
+   - In the right section of the Propagation Brush window, choose the meshes you want to paint.
+   - Set a material (default is `M_PropagationDefault`).
+
+4. **Paint on a Surface**  
+   - Select a surface object (e.g., a Plane) in your scene.
+   - Use the brush settings to define radius, density, and randomness, then begin painting.
+
+5. **Enable Play Mode Visibility (Optional)**  
+   - Right-click in the **Hierarchy** → `Propagation System > Create Propagation System`.
+   - In the created component, assign:
+     - The **Scene Propagation Data** asset
+     - Your scene’s **Main Camera** to the camera field
+     - The **On Camera Update** script to the corresponding field
+   - This ensures real-time frustum culling is executed from your active camera.
 
 ---
 
