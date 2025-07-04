@@ -42,7 +42,7 @@ Step-by-step video tutorials covering all core workflows:
 
 ## ⚙️ Quick Start
 
-> 📺 **Need visuals?** [Watch the video tutorials here](#tutorial-series) for a full walkthrough of each step.
+> 📺 **Need visuals?** [Watch the video tutorials here](#Tutorial-Series) for a full walkthrough of each step.
 
 1. **Open the Editor Window**  
    - In the top Unity menu, go to **Tools > Propagation Brush** to open the main painting interface.
