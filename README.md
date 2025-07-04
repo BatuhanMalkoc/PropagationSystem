@@ -1,4 +1,3 @@
-```markdown
 # Mesh Propagation System for Unity
 
 A **GPU-driven**, high-performance propagation tool that lets you scatter and stream millions of meshes in real time—optimized for mobile and desktop platforms, and fully open-source.
@@ -80,4 +79,3 @@ MIT License
 Developed with ❤️ by **Batuhan Malkoç** ([GitHub](https://github.com/YourNameHere))
 
 > _"Rendering the future—one mesh at a time._"
-```
