@@ -33,10 +33,10 @@ Step-by-step video tutorials covering all core workflows:
 
 ## 📦 Installation
 
-1. Clone the repository:
-   - git clone https://github.com/YourNameHere/MeshPropagation.git
-2. Import into your Unity project:
-   - Drag and drop the **MeshPropagation** folder into your **Assets** directory
+1. Download the latest release from the [Releases Page](https://github.com/BatuhanMalkoc/PropagationSystem/releases/tag/Alpha).
+   - File: `PropagationSystemv0.1.0-alpha.unitypackage`
+2. Open your Unity project.
+3. Drag and drop the `.unitypackage` file into the **Assets/** folder or import via **Assets > Import Package > Custom Package**.
 
 ---
 
