@@ -1,15 +1,15 @@
+```markdown
 # Mesh Propagation System for Unity
 
 A **GPU-driven**, high-performance propagation tool that lets you scatter and stream millions of meshes in real time—optimized for mobile and desktop platforms, and fully open-source.
 
 ## 📹 Tutorial Series
 
-Explore the complete workflow through step-by-step video tutorials:
+Step-by-step video tutorials covering all core workflows:
 
-- [Setup and Core Architecture](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID_1)
-- [GPU-Driven Scatter & Compute Shaders](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID_2)
-- [Frustum Culling & Performance Optimization](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID_3)
-- [Mobile Platform Fine-Tuning](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID_4)
+- [Tutorial 1: How To Install Propagation System For The First Time](https://youtu.be/9PUoShCcgsU)
+- [Tutorial 2: How To Propagate Your First Mesh](https://youtu.be/Bav2IcHjNL0ve)
+- [Tutorial 3: How To Make Your Propagation Meshes Visible In Play Mode](https://youtu.be/YrH5NkR8akY)
 
 ---
 
@@ -80,3 +80,4 @@ MIT License
 Developed with ❤️ by **Batuhan Malkoç** ([GitHub](https://github.com/YourNameHere))
 
 > _"Rendering the future—one mesh at a time._"
+```
